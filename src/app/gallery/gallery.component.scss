@@ -1,0 +1,119 @@
+.star-wrapper {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    // margin: 50px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  
+  .star-wrapper input {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+  }
+  
+  .star-wrapper label {
+    position: relative;
+    float: right;
+    color: #C8C8C8;
+  }
+  
+  .star-wrapper label:before {
+    margin: 5px;
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .star-wrapper input:checked ~ label:before {
+    color: #FFC107;
+  }
+  
+  .star-wrapper label:hover ~ label:before {
+    color: #ffdb70;
+  }
+  
+  .star-wrapper label:hover:before {
+    color: #FFC107;
+  }
+
+  .product-parent{
+      width: 400px;
+    display: flex;
+    flex-direction: column;
+    // border: 0.5px solid rgba(128, 128, 128, 0.48);
+  }
+
+
+  .product-child-container{
+    
+      width: 400px;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+  }
+  .product-child-container img {
+      width: 320px;
+      height: 100%;
+      
+  }
+  .top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+    transform: scale(1.0);
+}
+// .top-img:hover{
+//     opacity: 1;
+//     transform: scale(1.1);
+// }
+
+.btn-overlay{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-overlay-child{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // transition: 0.5s ease;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-overlay-child:hover{
+visibility: hidden;
+}
+
+
+
+.product-main{
+    display: flex;
+    flex-direction: row;
+}

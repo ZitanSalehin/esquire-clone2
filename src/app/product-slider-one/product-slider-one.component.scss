@@ -1,0 +1,35 @@
+
+.circleSlider{
+    width: 90vw;
+    overflow-x:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    padding-left: 100px;
+    text-align: center;
+    
+}
+.circleSlider img{
+    padding: 15px;
+    border-radius: 50%;
+    width: 8vw;
+    background-color: rgb(230, 230, 230);
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+}
+
+
+.delivery-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // border: 2px solid rgb(195, 195, 195);
+}
+

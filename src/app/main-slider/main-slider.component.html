@@ -1,0 +1,23 @@
+
+
+ <swiper
+ [slidesPerView]="1"
+ [spaceBetween]="50"
+ (swiper)="onSwiper($event)"
+ (slideChange)="onSlideChange()"
+ [navigation]="false"
+ [pagination]="{ clickable: false }"
+ [scrollbar]="{ draggable: false }"
+ class="mainSlider-container"
+>
+<ng-template swiperSlide> <img src="../../assets/images/banner1.jpg" alt="" srcset=""> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/banner2.jpg" alt="" srcset=""> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/banner3.jpg" alt="" srcset=""> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/banner4.jpg" alt="" srcset=""> </ng-template>
+
+<br>
+<br>
+<br>
+</swiper>
+
+

@@ -1,0 +1,62 @@
+
+ <img src="../../assets/images/offer-banner.png" alt="" srcset="" class="offer">
+ 
+<div style="margin-left: 160px; display:flex;padding:5px">
+ <h1 style="padding-top:12px">Shop By Category</h1>
+ <p style="padding-top:22px;padding-left:10px;font-size: 16px;">Choose what are you looking for</p>
+</div>
+
+ <swiper
+ [slidesPerView]="5"
+ [spaceBetween]="50"
+ (swiper)="onSwiper($event)"
+ (slideChange)="onSlideChange()"
+ [navigation]="false"
+ [scrollbar]="{ draggable: false }"
+ class="circleSlider"
+>
+<ng-template swiperSlide> <img src="../../assets/images/c1.jpg" alt="" srcset=""><br> <h2>Air Conditionar</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c2.jpg" alt="" srcset=""><br> <h2>Refrigerator</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c3.jpg" alt="" srcset=""><br> <h2>Microwave Oven</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c4.jpg" alt="" srcset=""><br> <h2>Air Cooler</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c5.jpg" alt="" srcset=""><br> <h2>Deep Fridger</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c6.jpg" alt="" srcset=""><br> <h2>LED TV</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c7.jpg" alt="" srcset=""><br> <h2>Air Conditionar</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c8.jpg" alt="" srcset=""><br> <h2>Air Conditionar</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c1.jpg" alt="" srcset=""><br> <h2>Refrigerator</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c2.jpg" alt="" srcset=""><br> <h2>Microwave Oven</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c3.jpg" alt="" srcset=""><br> <h2>Air Conditionar</h2> </ng-template>
+<ng-template swiperSlide> <img src="../../assets/images/c4.jpg" alt="" srcset=""><br> <h2>Deep Fridger</h2> </ng-template>
+
+</swiper>
+
+
+
+<div class="delivery-information">
+    <div style="display: flex; flex-direction: row; padding: 10px;border: 1;">
+    <img src="../../assets/images/delivery.svg" alt="" srcset="" style="width:65px;">
+    <div style="display: flex;flex-direction:column;padding: 15px;">
+        <h2 style="padding-top: 10px;">Free Delivery</h2>
+        <p style="margin-top: -10px;">Orders Over ৳ 0</p></div>
+    </div>
+    <div style="display: flex; flex-direction: row;padding: 10px;">
+    <img src="../../assets/images/money-bag.svg" alt="" srcset="" style="width:50px;">
+    <div style="display: flex;flex-direction:column;padding: 15px;">
+        <h2 style="padding-top: 10px;">Best Warranty Policy</h2>
+        <p style="margin-top: -10px;">Within three days</p></div>
+    </div>
+    <div style="display: flex; flex-direction: row;padding: 10px;">
+    <img src="../../assets/images/best_online.svg" alt="" srcset="" style="width:50px;">
+    <div style="display: flex;flex-direction:column;padding: 15px;">
+        <h2 style="padding-top: 10px;">Best Online Support</h2>
+        <p style="margin-top: -10px;">Hours: 9AM -5PM</p></div>
+    </div>
+    <div style="display: flex; flex-direction: row;padding: 10px;">
+    <img src="../../assets/images/piggy.svg" alt="" srcset="" style="width:50px;">
+    <div style="display: flex;flex-direction:column;padding: 15px;">
+        <h2 style="padding-top: 10px;">Get Best Offers</h2>
+        <p style="margin-top: -10px;">Enter now</p></div>
+    </div>
+
+
+</div>
